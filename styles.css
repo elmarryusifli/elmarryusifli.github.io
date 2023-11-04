@@ -1,0 +1,107 @@
+body {
+    background-color: #fff;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+#navbar a.navbar-brand {
+    color: whitesmoke;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    transition: border-bottom 0.5s ease-in-out;
+    border-bottom: 2px solid red;
+}
+
+.navbar a {
+    margin-left: 30px;
+    border-bottom: 2px solid transparent;
+    text-align: center;
+    color: white;
+}
+
+.landing-section {
+    padding: 100px;
+    text-align: center;
+}
+
+.projects-section {
+    padding: 100px;
+    text-align: center;
+}
+
+.project-card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#image {
+    float: left;
+}
+
+#aboutMe{
+    font-size: 3em;
+    font-family: distorted;
+}
+
+#bio {
+    font-size: 2em;
+    font-family: distorted;
+    text-align: center;
+}
+
+.bio-section {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.bio-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio-links ul {
+    list-style: none;
+    padding: 30px;
+    margin: 30px;
+}
+
+.bio-links li {
+    font-size: 2em;
+    display: inline;
+    margin-right: 20px;
+}
+
+.bio-links a, .grid-container a {
+    color: forestgreen;
+    text-decoration: none;
+}
+
+#proj{
+    font-size: 6em;
+    padding-bottom: 120px;
+}
+
+.bio-links a:hover, .grid-container a:hover{
+            text-decoration: none;
+            transition: border-bottom 0.5s ease-in-out;
+            border-bottom: 2px solid red;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    font-size: 1.5em;
+}  
